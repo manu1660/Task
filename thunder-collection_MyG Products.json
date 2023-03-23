@@ -1,0 +1,187 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "MyG Products",
+    "dateExported": "2023-03-23T06:22:54.093Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "75585d88-c38d-4c83-9d63-fbf2f0c0b1d9",
+            "colId": "89d92b15-9211-49fb-b86b-caa0ab247883",
+            "containerId": "",
+            "name": "ProductList",
+            "url": "http://127.0.0.1:8000/product/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-17T05:15:41.547Z",
+            "modified": "2023-03-17T05:16:16.238Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "79a2ebe3-7dc3-4983-a496-6038583f292e",
+            "colId": "89d92b15-9211-49fb-b86b-caa0ab247883",
+            "containerId": "",
+            "name": "AddProducts",
+            "url": "http://127.0.0.1:8000/product/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-17T05:16:43.416Z",
+            "modified": "2023-03-22T09:57:11.666Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "i phone 14 pro max"
+                    },
+                    {
+                        "name": "ram",
+                        "value": "6 GB"
+                    },
+                    {
+                        "name": "storage",
+                        "value": "256 GB"
+                    },
+                    {
+                        "name": "display",
+                        "value": "6.7 inch 120Hz Super Retina XDR OLED display"
+                    },
+                    {
+                        "name": "operating_system",
+                        "value": "iOS 16"
+                    },
+                    {
+                        "name": "processor",
+                        "value": "A16 Bionic Chip"
+                    },
+                    {
+                        "name": "connectivity",
+                        "value": "5G, 4G, 3G, Wi-Fi"
+                    },
+                    {
+                        "name": "rear_camera",
+                        "value": "48 MP + 12 MP + 12 MP"
+                    },
+                    {
+                        "name": "front_camera",
+                        "value": "12 MP"
+                    },
+                    {
+                        "name": "battery_charging",
+                        "value": "4320 mAh, 27W support charging"
+                    },
+                    {
+                        "name": "weight",
+                        "value": "240 g"
+                    },
+                    {
+                        "name": "price",
+                        "value": "135000"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "c:\\Users\\MANU\\Downloads\\apple-iphone-14-pro-max.jpeg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6ab1aa19-0e70-4bf6-a7df-d65d7c4f5745",
+            "colId": "89d92b15-9211-49fb-b86b-caa0ab247883",
+            "containerId": "",
+            "name": "SingleProduct",
+            "url": "http://127.0.0.1:8000/product/14/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-03-17T05:52:21.906Z",
+            "modified": "2023-03-22T11:00:15.140Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "17a20dde-9225-404c-81a9-c2772cf32a5e",
+            "colId": "89d92b15-9211-49fb-b86b-caa0ab247883",
+            "containerId": "",
+            "name": "UpdateProduct",
+            "url": "http://127.0.0.1:8000/product/6/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-03-17T05:53:03.263Z",
+            "modified": "2023-03-18T05:41:37.035Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Realme X2"
+                    },
+                    {
+                        "name": "ram",
+                        "value": "6 GB"
+                    },
+                    {
+                        "name": "storage",
+                        "value": "128 GB"
+                    },
+                    {
+                        "name": "display",
+                        "value": "6.4 inch Super AMOLED display"
+                    },
+                    {
+                        "name": "processor",
+                        "value": "Qualcomm Snapdragon 732G"
+                    },
+                    {
+                        "name": "connectivity",
+                        "value": "4G, 3G, 2G"
+                    },
+                    {
+                        "name": "camera",
+                        "value": "Rear-64mp+8mp+2mp+2mp, Front - 32mp"
+                    },
+                    {
+                        "name": "battery",
+                        "value": "4000 mah"
+                    },
+                    {
+                        "name": "price",
+                        "value": "19999"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "c:\\Users\\MANU\\Pictures\\Saved Pictures\\realme x2.webp"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a41d193f-5258-4261-8661-0d1e69f88bf5",
+            "colId": "89d92b15-9211-49fb-b86b-caa0ab247883",
+            "containerId": "",
+            "name": "DeleteProduct",
+            "url": "http://127.0.0.1:8000/product/11/",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-03-17T06:41:00.528Z",
+            "modified": "2023-03-20T06:47:42.177Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
